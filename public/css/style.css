@@ -1,4 +1,4 @@
-@import url(fontawesome-all.min.css);
+@import url(../font/css/font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -81,7 +81,7 @@ html {
 
 body {
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
     background-size: auto, cover;
     background-attachment: fixed, fixed;
     background-position: center, center;
@@ -1182,7 +1182,7 @@ body.is-menu-visible #menu .inner {
     #intro {
         padding: 5em 0 8.25em 0;
         background-color: #2e3141;
-        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
         background-size: auto, cover;
         background-position: center, center;
         margin-bottom: -6.5em;
@@ -1279,7 +1279,7 @@ body.is-preload #intro p {
     #about>header {
         padding: 9em 0 6.25em 0;
         background-color: #2e3141;
-        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
         background-size: auto, cover;
         background-position: center, 0% 30%;
         margin-bottom: -6.5em;
@@ -1753,7 +1753,7 @@ ul.tools li, ul.hobbies li {
 @media screen and (max-width: 1280px) {
     #connect {
         background-color: #2e3141;
-        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
         background-size: auto, cover;
         background-position: center, center;
         margin-top: -6.5em;
